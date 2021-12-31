@@ -4,3 +4,10 @@ header {
     background-repeat: no-repeat;
     height: 80vh;
 }
+
+.services {
+    background-image: url("./assets/backgrounds/s_image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
