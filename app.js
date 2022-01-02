@@ -26,7 +26,16 @@ $(
         let form = $('form');
         let name = $('#name');
         let email = $('#email');
+        let message = $('#message');
         
+        form.submit(function(event){
+            event.preventDefault();
+            if(message.val().length === 0){
+                alert('What Message do you have for us?')
+            } else {
+                alert(`Hey ${name.val()}, Your Message has been received, Thank you. `)
+            }
+        })
     }
 )
 
