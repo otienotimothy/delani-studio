@@ -17,3 +17,20 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+input {
+    min-width: 48%;
+    color: #fff;
+}
+
+textarea {
+    color: white;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+
+input:focus, textarea:focus {
+    outline: #fff;
+}
