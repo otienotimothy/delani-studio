@@ -303,28 +303,22 @@
 				<div>
 					<form class="w-50 mx-auto pb-4">
 						<div class="d-flex justify-content-between mb-4">
-							<div>
-								<input
-									type="text"
-									name="name"
-									id="name"
-									placeholder="Name..."
-									class="p-2 bg-transparent border border-white"
-								/>
-								<small id="nameError"
-									>Name should be atleast 3 characters</small
-								>
-							</div>
-							<div>
-								<input
-									type="email"
-									name="email"
-									id="email"
-									placeholder="Email..."
-									class="p-2 bg-transparent border border-white"
-								/>
-								<small id="emailError">Enter a valid Email</small>
-							</div>
+							<input
+								type="text"
+								name="name"
+								id="name"
+								placeholder="Name..."
+								required
+								class="p-2 bg-transparent border border-white"
+							/>
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="Email..."
+								required
+								class="p-2 bg-transparent border border-white"
+							/>
 						</div>
 						<div>
 							<textarea

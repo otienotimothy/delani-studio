@@ -20,7 +20,13 @@ $(
                 let title = $(this).children()[1]
                 $(title).addClass('d-none')
             })
-        })
+        });
+
+        /** Form Validation */
+        let form = $('form');
+        let name = $('#name');
+        let email = $('#email');
+        
     }
 )
 
@@ -31,3 +37,6 @@ function toggleWhatWeDo(class1, class2){
         $(class2).removeClass('d-none')
     })
 }
+
+
+
