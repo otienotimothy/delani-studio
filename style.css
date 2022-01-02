@@ -11,3 +11,9 @@ header {
     background-repeat: no-repeat;
     height: 40vh;
 }
+
+.contact-us {
+    background-image: url("./assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
