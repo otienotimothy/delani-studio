@@ -35,6 +35,7 @@ $(
             } else {
                 alert(`Hey ${name.val()}, Your Message has been received, Thank you. `)
             }
+            form[0].reset();
         })
     }
 )
