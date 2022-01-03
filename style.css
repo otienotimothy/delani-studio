@@ -50,3 +50,26 @@ input::placeholder, textarea::placeholder {
 input:focus, textarea:focus {
     outline: #fff;
 }
+
+/* Page Responsiveness */
+@media (max-width: 500px){
+    header {
+        background-size: cover;
+        background-position: top;
+    }
+
+    .services {
+        background-size: cover;
+        background-position: top center;
+        padding: 0 .5rem;
+    }
+
+    .what-we-do > div {
+        flex-direction: column;
+    }
+
+    .what-we-do > div > article {
+        width: 85%;
+        margin-bottom: .8rem;
+    }
+}
