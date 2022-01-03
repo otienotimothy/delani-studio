@@ -72,4 +72,10 @@ input:focus, textarea:focus {
         width: 85%;
         margin-bottom: .8rem;
     }
+
+    .contact-us form > div {
+        width: 100%;
+        flex-direction: column;
+    }
+
 }
