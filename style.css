@@ -52,7 +52,7 @@ input:focus, textarea:focus {
 }
 
 /* Page Responsiveness */
-@media (max-width: 500px){
+@media (max-width: 760px){
     header {
         background-size: cover;
         background-position: top;
@@ -78,4 +78,17 @@ input:focus, textarea:focus {
         flex-direction: column;
     }
 
+}
+
+@media (max-width: 1200px){
+    header {
+        background-size: cover;
+        background-position: top;
+    }
+
+    .services {
+        background-size: cover;
+        background-position: top center;
+        padding: 0 .5rem;
+    }
 }
